@@ -2,10 +2,15 @@ html,
 body,
 .app {
   min-height: 100vh;
-  background-color: #292929;
+  background-color: #ececec;
 }
 
-.app {
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-page {
+  background-color: #292929;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,4 +56,29 @@ body,
 
 .login-button:hover::before {
   opacity: 1;
+}
+
+.default-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0px;
+}
+
+.header-container {
+  background-color: #292929;
+  padding: 16px 20px 48px 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.welcome-text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #d7d7d7;
+  opacity: 0.8;
+  margin-top: 16px;
+}
+
+.menu-bar {
+  color: #fff;
 }
